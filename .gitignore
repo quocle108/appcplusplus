@@ -2,3 +2,5 @@
 *.dylib
 *.a
 *.o
+*.d
+binaries/*
