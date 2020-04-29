@@ -13,7 +13,7 @@ all: phone
 
 # The targets hardware, software, and phone represent
 # directories; the command script invokes make in each directory
-# cmd is the command 
+# cmd is the command of sub-directory, this should be input from CMD
 hardware: $(STATICDIR)
 	$(MAKE) --directory=$^ $(cmd)
 

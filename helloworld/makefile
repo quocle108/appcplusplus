@@ -12,6 +12,7 @@ all: $(OUTPUTFILE)
 
 # we also can use  automatic variables
 # the variable $< represents the filename of the first prerequisite, and the variable $^ represents the sequence of prerequisites, separated by spaces
+# https://www.gnu.org/software/make/manual/make.html#Automatic-Variables
 
 $(OUTPUTFILE): helloworld.cpp
 	g++ -o $@ $<
