@@ -1,6 +1,6 @@
 #ifndef GMAIL_HPP_INCLUDED
 #define GMAIL_HPP_INCLUDED
 
-void gmailfunc(); // Prints "George, "
+void gmailfunc();
 
 #endif // GMAIL_HPP_INCLUDED

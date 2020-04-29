@@ -14,7 +14,6 @@
 # define SOFTWARE_DECL
 #endif
 
-// Prints "George, and Ringo\n"
 #ifdef __MWERKS__
 # pragma export on
 #endif

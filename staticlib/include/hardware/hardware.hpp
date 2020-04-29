@@ -1,5 +1,5 @@
 #ifndef HARDWARE_HPP_INCLUDED
 #define HARDWARE_HPP_INCLUDED
 
-void hardware(); // Prints "John, Paul, "
+void hardware();
 #endif // HARDWARE_HPP_INCLUDED
